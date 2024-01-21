@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8dec91;
+}
+
+/* NAVBAR */
+header {
+    background: rgb(255,222,89);
+    background: linear-gradient(90deg, rgba(255,222,89,1) 21%, rgba(255,145,77,1) 100%);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* LOGO */
+.navbar__brand_logo {
+    width: 100px;
+    height: 80px;
+}
+
+.navbar__logo {
+    padding-top: 10px;
+    width: 100%;
+}
+
+/* HOME */
+.navbar__items__home {
+    font-size: 20px;
+}
+
+/* WEATHER */
+.nabvar__items__weather {
+    font-size: 25px;
+}
+
+.navbar__items__chart {
+    font-size: 23px;
+}
+
+.navbar__items__settings {
+    font-size: 20px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.cursor:hover {
+    border: 2px solid green;
+    padding: 6px;
+    cursor: pointer;
+}
+
+
+.settings-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #b3f1a9;
+    border-radius: 30px;
+    box-shadow: 1px 5px 15px rgb(23, 49, 29);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}

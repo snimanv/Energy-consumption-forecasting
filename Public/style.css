@@ -5,12 +5,17 @@
 }
 
 body {
-    background-color: #aceead;
+    background-color: #a8f0a9;
+    /* font-family: 'AR One Sans', sans-serif;
+    font-family: 'Dancing Script', cursive; */
+    font-family: 'League Spartan', sans-serif;
 }
 
 /* NAVBAR */
 header {
-    background-color: #96ed96;
+    /* background-color: #91ed91; */
+    background: rgb(255,222,89);
+    background: linear-gradient(90deg, rgba(255,222,89,1) 21%, rgba(255,145,77,1) 100%);
 }
 
 .navbar {
@@ -48,12 +53,96 @@ header {
     font-size: 20px;
 }
 
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
 .cursor:hover {
     border: 2px solid green;
     padding: 6px;
+    cursor: pointer;
 }
 
 .container {
     max-width: 100%;
+    margin: 0 auto;
+    color: rgb(0, 34, 0);
 }
 
+.container__hero_section {
+    margin: 60px;
+    margin-left: 30px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    border-radius: 70px;
+    box-shadow: 1px 5px 15px rgb(23, 49, 29);
+    background-color: rgb(184, 237, 184);
+}
+
+.container__hero_section__image_container {
+    position: relative;
+    width: 500px;
+    margin-right: 60px;
+}
+
+.container__hero_section__image {
+    width: 100%;
+    border-radius: 70px;
+}
+
+.container__hero_section__paragraph {
+    margin-left: 50px;
+}
+
+.footer__container {
+    /* background-color: #2c3e50; */
+    background: rgb(255,222,89);
+    background: linear-gradient(90deg, rgba(255,222,89,1) 21%, rgba(255,145,77,1) 100%);
+    color: #082702;
+    padding: 30px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h2 {
+    color: #025517;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section a {
+    display: block;
+    color: #082702;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-bottom p {
+    color: #082702;
+}
