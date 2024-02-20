@@ -40,15 +40,17 @@ header {
     font-size: 20px;
 }
 
-/* WEATHER */
-.nabvar__items__weather {
-    font-size: 25px;
+/* ENERGY */
+.nabvar__items__energy {
+    font-size: 23px;
 }
 
+/* CHART */
 .navbar__items__chart {
     font-size: 23px;
 }
 
+/* SETTINGS */
 .navbar__items__settings {
     font-size: 20px;
 }
@@ -66,6 +68,9 @@ a:visited {
     padding: 6px;
     cursor: pointer;
 }
+
+
+/* HERO SECTION */
 
 .container {
     max-width: 100%;
@@ -101,48 +106,77 @@ a:visited {
     margin-left: 50px;
 }
 
+
+
+/* FOOTER */
 .footer__container {
-    /* background-color: #2c3e50; */
     background: rgb(255,222,89);
     background: linear-gradient(90deg, rgba(255,222,89,1) 21%, rgba(255,145,77,1) 100%);
+    margin-top: 10px;
+    font-family: 'League Spartan', sans-serif;
     color: #082702;
-    padding: 30px 0;
 }
 
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
+.footer__content {
     display: flex;
-    justify-content: space-between;
+    max-width: 80%;
+    justify-content: space-evenly;
 }
 
-.footer-section {
+.footer__content__ {
     flex: 1;
-    padding: 0 20px;
+    padding: 30px 30px 0px 30px;
 }
 
-.footer-section h2 {
+.about {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer__content__heading {
+    padding-bottom: 10px;
     color: #025517;
 }
 
-.footer-section p {
+.footer__content__ p {
     font-size: 14px;
     line-height: 1.6;
 }
 
-.footer-section a {
+.social a{
     display: block;
+    font-size: 14px;
+    line-height: 1.6;
     color: #082702;
-    margin-top: 8px;
-    text-decoration: none;
 }
 
-.footer-bottom {
-    margin-top: 20px;
+.footer__bottom {
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    margin-top: 5px;
+}
+
+.footer__bottom__text {
     text-align: center;
-    font-size: 12px;
 }
 
-.footer-bottom p {
-    color: #082702;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

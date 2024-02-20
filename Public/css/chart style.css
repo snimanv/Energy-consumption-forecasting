@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.main__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main__step_chart {
+    /* width: 900px; 
+    height: 500px; */
+    width: 1100px;
+    height: 700px;
+    margin-left: 60px auto;
+}
+
+#main__pie_chart {
+    width: 900px; 
+    height: 500px;
+}
