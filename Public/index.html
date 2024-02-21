@@ -32,7 +32,7 @@
 
             <!-- ENERGY -->
             <div class="nabvar__items__energy cursor">
-                <a href="./energy.html">
+                <a href="../views/energy.html">
                     <i class="fa-solid fa-bolt"></i>
                 </a>
             </div>
@@ -83,8 +83,8 @@
             <div class="footer__content__ contact">
                 <h2 class="footer__content__heading">Contact Us</h2>
                 <strong>
-                    <p>Email: echopulse@gmail.com</p>
-                    <p>Phone: +91 988762341</p>
+                    <p>Email: <a href="mailto:">ecopulse24@gmail.com</a></p>
+                    <p>Phone: +91 9xxxxxxxx</p>
                 </strong>
             </div>
             <div class="footer__content__ social">
@@ -97,48 +97,26 @@
             </div>
         </div>
         <div class="footer__bottom">
-            <p class="footer__bottom__text">&copy; 2024 EchoPulse. All rights reserved.</p>
+            <p class="footer__bottom__text">&copy; 2024 EcoPulse. All rights reserved.</p>
         </div>
     </footer>
 
+    <div class="chatbot">
+
+        <!-- Chatbot icon button -->
+            <button id="chatbot-icon" onclick="toggleChatbot()">
+                <i class="fa-solid fa-comments"></i>
+            </button>
+
+        <!-- Chatbot box (hidden by default) -->
+        <div id="chatbot-box" class="chatbot-box-hidden">
+            <iframe width="320" height="410" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/8aa1e677-f4de-4bc3-83ac-d9f573e1b9c2"></iframe>
+        </div>
+<!-- 350, 430 -->
+    </div>
 
 
+    <script src="./js/script.js"></script>
 
-
-
-
-
-
-
-
-    <!-- FOOTER
-    <footer class="footer__container">
-            <div class="footer-content">
-                <div class="footer-section about">
-                    <h2>About Us</h2>
-                    <strong>
-                        <p>We aim to create a user-friendly interface for a web platform that allows energy providers, distributors, and end-users to access energy consumption forecasts.</p>
-                    </strong>
-                </div>
-                <div class="footer-section contact">
-                    <h2>Contact Us</h2>
-                    <strong>
-                        <p>Email: echopulse@gmail.com</p>
-                        <p>Phone: +91 988762341</p>
-                    </strong>
-                </div>
-                <div class="footer-section social">
-                    <h2>Follow Us</h2>
-                    <strong>
-                        <a href="#" target="_blank">Facebook</a>
-                        <a href="#" target="_blank">Twitter</a>
-                        <a href="#" target="_blank">Instagram</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 EchoPulse. All rights reserved.</p>
-            </div>
-    </footer> -->
 </body>
 </html>

@@ -1,11 +1,9 @@
-document.getElementById('profileForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    // Add logic to handle profile form submission
-    alert('Profile information saved!');
-});
-
-document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    // Add logic to handle contact form submission
-    alert('Contact information saved!');
-});
+// Function to toggle chatbot box visibility
+function toggleChatbot() {
+    var chatbotBox = document.getElementById("chatbot-box");
+    if (chatbotBox.style.display === "none") {
+      chatbotBox.style.display = "block";
+    } else {
+      chatbotBox.style.display="none";
+  }
+}
